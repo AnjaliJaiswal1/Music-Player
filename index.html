@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3304249255.js" crossorigin="anonymous"></script>
+    <title>Spotify </title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify_logo.webp" width="100px" alt="spotify"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList"></div>
+        <h1>Best Songs</h1>
+        <div class="songListItemsCntainer">
+
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"></span>
+                <span class="duration">5:34</span>
+                <i id="0" class="fa-solid songItemPlayButton fa-2x fa-play"></i>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"></span>
+                <span class="duration">5:34</span>
+                <i id="1" class="fa-solid songItemPlayButton fa-2x fa-play"></i>
+            </div>
+
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"></span>
+                <span class="duration">5:34</span>
+                <i id="2" class="fa-solid songItemPlayButton fa-2x fa-play"></i>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"></span>
+                <span class="duration">5:34</span>
+                <i id="3" class="fa-solid songItemPlayButton fa-2x fa-play"></i>
+            </div>
+        </div>
+    </div>
+    <div class="play">
+        <input type="range" min="0" value="0" max="100" name="range" id="myProgressbar">
+        <div class="icons">
+            <i id="previousSong" class="fa-solid  fa-2x fa-backward-step"></i>
+            <i id="masterPlay" class="fa-solid fa-2x fa-play"></i>
+            <i id="nextSong" class="fa-solid  fa-2x fa-forward-step"></i>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
